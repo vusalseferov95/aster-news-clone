@@ -1,0 +1,7 @@
+.icon {
+    display: inline-flex;
+}
+
+.icon-home {
+    background-image: url(/assets/ımages/home.svg);
+}
