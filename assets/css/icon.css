@@ -1,7 +1,52 @@
 .icon {
+    width: 24px;
+    height: 24px;
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-aster-news {
+    background-image: url(/assets/images/aster-news-logo.svg);
 }
 
 .icon-home {
-    background-image: url(/assets/ımages/home.svg);
+    background-image: url(/assets/images/home.svg);
 }
+
+.icon-globe {
+    background-image: url(/assets/images/globe.svg);
+}
+
+.icon-breifcase {
+    background-image: url(/assets/images/briefcase.svg);
+}
+
+.icon-health {
+    background-image: url(/assets/images/activity.svg);
+}
+
+.icon-covid19 {
+    background-image: url(/assets/images/covid.svg);
+}
+
+.icon-entertaintment {
+    background-image: url(/assets/images/play-circle.svg);
+}
+
+.icon-sports {
+    background-image: url(/assets/images/sports.svg);
+}
+
+.icon-discussion {
+    background-image: url(/assets/images/message.svg);
+}
+
+.icon-notification {
+    background-image: url(/assets/images/bell.svg);
+}
+
+.icon-setting {
+    background-image: url(/assets/images/settings.svg);
+}
+
