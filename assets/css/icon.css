@@ -1,13 +1,29 @@
 .icon {
-    width: 24px;
-    height: 24px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-xs {
+    width: 6px;
+    height: 6px;
+}
+
+.icon-sm {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-md {
+    width: 24px;
+    height: 24px;
 }
 
 .icon-aster-news {
-    background-image: url(/assets/images/aster-news-logo.svg);
+    background-image: url(/assets/images/aster-news.png);
 }
 
 .icon-home {
@@ -48,5 +64,9 @@
 
 .icon-setting {
     background-image: url(/assets/images/settings.svg);
+}
+
+.icon-gift {
+    background-image: url(/assets/images/gift.svg);
 }
 
