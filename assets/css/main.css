@@ -43,6 +43,9 @@ body html {
     height: 30px;
     gap: 25px;
   }
+  .navbar .navbar-text {
+    color: var(--amberBlack);
+  }
 
   .navbar .navbar-link:first-child {
     gap: 20px;
@@ -63,7 +66,7 @@ body html {
   }
   
   .premium-box {
-    width: 250px;
+    width: 240px;
     height: 113px;
     background-color: var(--SkyBlue);
     border-radius: 10px;
@@ -71,19 +74,37 @@ body html {
     margin-top: 140px;
   }
 
+  .premium-box a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+  }
+
+  .premium-box .upgrade-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .premium-box .navbar-icon {
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 20px;;
+  }
+
+  .premium-box span {
+    color: #fff;
   }
 
   .premium-box a span:last-child {
-    color: #fff;
     font-size: 15px;
     font-weight: 200;
-    padding-left: 15px;
+    
     padding-top: 25px;
+  }
 
-  
+  .upgrade-info .dollar8 {
+    padding-left: 20px;
+  }
 
   .dollar8 span:first-child {
     font-size: 30px;
@@ -107,56 +128,29 @@ body html {
     border-radius: 5px;
   }
 
-  .head-search {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .head-search div {
-    display: flex;
-    align-items: center;
-  }
+  
 
   .search-box {
-    padding-left: 50px;
+    display: flex;
+    background-color: gba(47, 159, 248, 0.04);
+    border-radius: 10px;
   }
 
   .search-box input {
-    width: 500px;
-    height: 50px;
-    width: 100%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('/assets/images/search.svg');
-    background-position: 10px 10px; 
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    
+    width: 495px;
+    height: 45px;
+    background: transparent;
+    border: none;
+    margin-right: 20px;
+  }
+  .search-box input:focus {
+    outline: none;
   }
 
-  .navbar2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+  .content-head button span:first-child {
+    color: var(--amberBlack);
   }
 
-  .navbar2 button {
-    height: 30px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: 400;
-  }
-
-  .navbar2 button:first-child {
-    background-color: var(--blue-btn);
-    width: 52px;
-  }
-
-  .page-right {
-    background-color: red;
+  .content-head button span:last-child {
+    color: var(--SkyBlue);
   }
