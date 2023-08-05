@@ -37,46 +37,53 @@ body html {
     color: var(--amberBlack);
   }
 
-  .navbar .navbar-link:nth-child(2) {
-    color: var(--SkyBlue);
-    padding-left: 25px;
-  }
-
   .navbar-link {
     display: flex;
     padding-left: 33px;
-    height: 50px;
+    height: 30px;
+    gap: 25px;
   }
 
+  .navbar .navbar-link:first-child {
+    gap: 20px;
+  }
+
+  .navbar .navbar-link:nth-child(2) {
+    color: var(--SkyBlue);
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .navbar .navbar-link:nth-child(6) {
+    padding-top: 25px;
+    padding-bottom: 45px;
+    border-radius: top 1px solid;
+    border-color: var(--SkyBlue);
+  }
+  
   .premium-box {
-    width: 230px;
-    height: 110px;
-    display: flex;
-    flex-direction: column;
+    width: 250px;
+    height: 113px;
     background-color: var(--SkyBlue);
     border-radius: 10px;
     padding-right: 20px;
+    margin-top: 140px;
   }
 
-  .premium-box a {
-    display: flex;
+  .premium-box .navbar-icon {
     padding-left: 20px;
     padding-top: 20px;
   }
 
-  .premium-box div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-bottom: 20px;
-  }
-
-  .premium-box span {
+  .premium-box a span:last-child {
     color: #fff;
     font-size: 15px;
-    font-weight: 400;
-  }
+    font-weight: 200;
+    padding-left: 15px;
+    padding-top: 25px;
+
+  
 
   .dollar8 span:first-child {
     font-size: 30px;

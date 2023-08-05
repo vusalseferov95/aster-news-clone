@@ -22,6 +22,11 @@
     height: 24px;
 }
 
+.icon-logo {
+    width: 30px;
+    height: 35px;
+}
+
 .icon-aster-news {
     background-image: url(/assets/images/aster-news.png);
 }
