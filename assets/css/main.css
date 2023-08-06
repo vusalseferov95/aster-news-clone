@@ -10,7 +10,7 @@ body html {
 .grid-box {
     display: grid;
     grid-template-columns: 260px 860px 320px;
-    gap: 10px;
+    gap: 45px;
     width: 1940px;
     height: 1440px;
     padding: 10px;
@@ -18,15 +18,7 @@ body html {
   
   .grid-box > div {
     background-color: #F4F9F8;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 30px;
-  }
-  
-  .item1 {
-    width: 260px;
-    height: 900px;
-
+    padding-top: 20px;
   }
 
   .navbar {
@@ -128,29 +120,206 @@ body html {
     border-radius: 5px;
   }
 
-  
+  .page-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 860px;
+  }
 
   .search-box {
     display: flex;
-    background-color: gba(47, 159, 248, 0.04);
-    border-radius: 10px;
+    
   }
 
   .search-box input {
     width: 495px;
     height: 45px;
+    font-size: 15px;
+    font-weight: 400;
     background: transparent;
-    border: none;
+    background-color: rgba(47, 159, 248, 0.04,);
     margin-right: 20px;
-  }
-  .search-box input:focus {
-    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 14px;
   }
 
-  .content-head button span:first-child {
+  .search-box input text {
+    color: rgba(7, 45, 75, 0.30,);
+  }
+
+  .search-box figure {
+    display: flex;
+    align-items: center;
+  }
+
+  .news-covid19 button {
+    width: 256px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 0.2px solid var(--amberBlack);
+  }
+
+  .news-covid19 button div span {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .news-covid19 button div span:first-child {
     color: var(--amberBlack);
   }
 
-  .content-head button span:last-child {
+  .news-covid19 button div span:last-child {
     color: var(--SkyBlue);
   }
+
+  .news-covid19 {
+    padding-left: 32px;
+  }
+
+  .top-story {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-weight: 700;
+    color: var(--amberBlack);
+    padding-top: 40px;
+    padding-left: 5px;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 22px 5px 5px;
+  }
+
+  .buttons button {
+    font-size: 15px;
+    font-weight: 200;
+    color: var(--amberBlack);
+    border-radius: 20px;
+    border: 0.2px solid;
+    box-shadow: rgba(0, 20, 20, 0);
+  }
+
+  .buttons button:first-child {
+    color: #fff;
+    background-color: var(--SkyBlue);
+  }
+
+  .samsung-galaxy-f22 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 5px;
+  }
+
+  .samsung-galaxy-f22 h2 {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--amberBlack);
+    flex-shrink: 0;
+    padding-right: 110px;
+  }
+ 
+  .samsung-galaxy-f22 p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--amberBlack);
+    width: 510px;
+    height: 60px;
+    flex-shrink: 0;
+    padding-top: 10px;
+  }
+  .samsung-galaxy-f22 span {
+    font-size: 12px;
+    font-weight: 400px;
+    color: var(--amberBlack);
+  }
+
+  .share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .share-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .share-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  .my-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 35px;
+    color: var(--amberBlack);
+  }
+
+  .my-profile button {
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    margin-left: 13px;
+    margin-right: 36px;
+  }
+
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 95px;
+    padding-right: 35px;
+  }
+
+  .weather-info div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .weather-info .div1 {
+    border-bottom: 0.5px solid var(--amberBlack);
+  }
+
+
+.weather-info .div2-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.div2-text span:first-child {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--amberBlack);
+}
+
+.div2-text span:last-child {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--amberBlack);
+}
+
+.weather-info .div3 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.div3 span:first-child {
+  padding-right: 23px;
+}
