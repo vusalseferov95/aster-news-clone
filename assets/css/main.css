@@ -1,19 +1,20 @@
 body html {
-    width: 100%;
-    background-color: #F4F9F8;
-  }
+  width: 100%;
+  background-color: #F4F9F8;
+}
 
-  .container {
-    margin: 0 auto;
-  }
+.container {
+  margin: auto auto auto auto;
+}
 
 .grid-box {
     display: grid;
     grid-template-columns: 260px 860px 320px;
     gap: 45px;
-    width: 1940px;
-    height: 1440px;
+    width: 1550px;
+    height: 1980px;
     padding: 10px;
+    background-color: #fff;
   }
   
   .grid-box > div {
@@ -121,10 +122,13 @@ body html {
   }
 
   .page-content {
+    width: 860px;
+  }
+
+  .content-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 860px;
   }
 
   .search-box {
@@ -222,7 +226,7 @@ body html {
   }
 
   .samsung-galaxy-f22 h2 {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
     color: var(--amberBlack);
     flex-shrink: 0;
@@ -237,11 +241,13 @@ body html {
     height: 60px;
     flex-shrink: 0;
     padding-top: 10px;
+    opacity: 0.6;
   }
   .samsung-galaxy-f22 span {
     font-size: 12px;
     font-weight: 400px;
     color: var(--amberBlack);
+    opacity: 0.4;
   }
 
   .share {
@@ -262,6 +268,179 @@ body html {
     justify-content: space-between;
     gap: 25px;
   }
+
+  .grid-news-box {
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: 191px 191px 191px;
+    padding-top: 20px;
+    grid-auto-columns: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .grid-news-box div {
+    background-color: #fff;
+  }
+
+  .news-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .news-text-info h2 {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--amberBlack);
+  }
+
+  .news-text-info span {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--amberBlack);
+    opacity: 0.6;
+  }
+
+  .share-info span:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .share-info-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .share-info span {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.4;
+  }
+
+  .share-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+
+  .share-btn span {
+    color: var(--buttonColor);
+  }
+
+  .share-btn figure:first-child {
+    gap: 20px;
+  }
+
+  .share-btn figure:last-child {
+    gap: 20px;
+  }
+
+  .creators {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--amberBlack);
+  }
+
+  .creators div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .creators div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .grid-follow-box {
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px 160px;
+    grid-template-rows: 185px;
+    padding-top: 20px;
+    column-gap: 15px;
+  }
+
+  .grid-follow-box div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    flex-shrink: 0;
+    background-color:#fff;
+  }
+
+  .grid-follow-box div figure img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 66px;
+  }
+
+  .grid-follow-box div h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--amberBlack);
+  }
+
+  .grid-follow-box div span {
+    font: 12px;
+    font-weight: 400;
+    color: var(--amberBlack);
+    opacity: 0.4;
+  }
+
+  .grid-follow-box div button {
+    width: 116px;
+    height: 32px;
+    background-color: var(--SkyBlue);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .show-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--amberBlack);
+    background-color: #fff;
+    border: none;
+    margin-bottom: 100px;
+  }
+
+  .web-site-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .web-site-info div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .web-site-info span {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--amberBlack);
+    opacity: 0.4;
+  }
+
+
   .my-profile {
     display: flex;
     align-items: center;
@@ -322,4 +501,92 @@ body html {
 
 .div3 span:first-child {
   padding-right: 23px;
+}
+
+.story-writer {
+  padding-top: 30px;
+}
+
+.story-writer div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  gap: 15px;
+}
+
+.story-writer div:first-child ansp {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--amberBlack);
+}
+
+.story-writer div:last-child span {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--amberBlack);
+  opacity: 0.6;
+}
+
+.know-more {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--SkyBlue);
+  border: none;
+  background-color: #fff;
+}
+
+.quick-bytes {
+  padding-top: 30px;
+}
+
+.quick-bytes div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quick-bytes div:first-child span {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--amberBlack);
+}
+
+.quick-bytes div:last-child span {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--amberBlack);
+  opacity: 0.6;
+}
+
+.news-letter {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  flex-direction: column;
+  padding-top: 65px;
+}
+
+.news-letter span {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--amberBlack);
+}
+
+.news-letter input {
+  width: 240px;
+  height: 40px;
+  flex-shrink: 0;
+  border: 0.2px solid var(--amberBlack);
+  border-radius: 5px;
+  background-color: #F4F9F8;
+}
+
+.news-letter button {
+  width: 240px;
+  height: 40px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--SkyBlue);
+  color: #fff;
 }
