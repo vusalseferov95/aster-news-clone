@@ -3,12 +3,9 @@ body html {
   background-color: #F4F9F8;
 }
 
-.container {
-  margin: auto auto auto auto;
-}
-
 .grid-box {
     display: grid;
+    margin: 0 auto;
     grid-template-columns: 260px 860px 320px;
     gap: 45px;
     width: 1550px;
